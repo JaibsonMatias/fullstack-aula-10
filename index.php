@@ -12,9 +12,9 @@
     </style>
   </head>
   <body>
-    <h1>Requisição assíncrona</h1>
+    <h1 class="titulo text-center">Requisição assíncrona</h1>
 
-    <div class="container">
+    <div class="container text-center">
 
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12"> 
@@ -39,8 +39,9 @@
             </div>
         </div>
        
-
-        <p id="resultado" class="border border-success"></p>
+        
+        <p id="resultado" class="border border-success row justify-content-md-center mt-4 p-3 mb-2 bg-white text-dark"></p>
+         
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
